@@ -4,6 +4,6 @@ namespace PortalAPI.Interface
 {
     public interface IProductData
     {
-        Products GetProduct(int id);
+        Products GetProduct(int id); 
     }
 }

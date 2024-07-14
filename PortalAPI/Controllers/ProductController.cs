@@ -20,7 +20,7 @@ namespace PortalAPI.Controllers
 
             if (product == null)
             {
-                return NotFound();
+                return NotFound(); 
             }
 
             return Ok(product);
